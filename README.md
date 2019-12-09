@@ -11,7 +11,7 @@ However, none of these were directly usable for my requirements on what "system 
 So here are my requirements so you can decide if it matches yours. Also see the code as it is really very simple.
 System is idle if:
 
-* There has been no activity for some time, according to the X Window system.
+* There has been no activity for some time, for a specific user, according to the X Window system.
 * There are no locks on file accessed via Samba/CIFS.
 * There are no more than the default number of user sessions still logged in, according to `last`.
 * The users logged in according to `w` have been idle for some time.
