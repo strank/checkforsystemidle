@@ -18,6 +18,8 @@ System is idle if:
 
 See the variables in the script to adapt it to your situation.
 
+**Requirements:** xprintidle, available in most Linux distributions, https://github.com/g0hl1n/xprintidle
+
 If you are using a cron daemon, e.g. systemd-cron, you can have it run every two minutes by adding the following to your root's crontab (edit the crontab by running `crontab -e` / `crontab-systemd -e`, adapt the path as needed):
 
   ```
